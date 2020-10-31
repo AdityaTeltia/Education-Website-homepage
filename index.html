@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>FrontEnd - Demo Task</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./img/logo.PNG" alt="" width="150px">
+        </div>
+        <div class="different_sections">
+            <a href="#" class="navigation">Live Classes</a>
+            <a href="#"class="navigation">Video Library</a>
+            <a href="#"class="navigation">Course</a>
+            <a href="#"class="navigation">Book</a>
+            <a href="#"class="navigation">Board</a>
+            <a href="#"class="navigation">Exam</a>
+        </div>
+        <div class="hamburger ">
+            <button id="toggle" class="toggle">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="media-navbar">
+        <i class="fa fa-times fa-2x " id="close" style="position: absolute; top: 5%; right:10%;"></i>
+        <a href="#" class="navigation">Live Classes</a>
+        <a href="#"class="navigation">Video Library</a>
+        <a href="#"class="navigation">Course</a>
+        <a href="#"class="navigation">Book</a>
+        <a href="#"class="navigation">Board</a>
+        <a href="#"class="navigation">Exam</a>
+    </div>
+    <div class="doubt_video">
+    <img src="./img/small-eclipse.svg" alt="working" style="position: absolute; right: 10%;top: 10%;z-index: -1;">
+    <img src="./img/small-eclipse.svg" alt="working" style="position: absolute; right: 20%;z-index: -1;">
+        <div class="doubts">
+            <span class="text">Clarify your <span>doubts</span> <br> in your language</span>
+            <a href="#" class="ask"><i class="fa fa-download" style="padding: 5px;"></i>Ask your doubt now</a>
+        </div>
+        <div class="video" >
+            <video src="./img/mock.mp4" style="width:300px; height:300px;" controls="true" class="working"></video>
+        </div>
+    </div>
+    <div class="achievments">
+        <div class="achieved">
+            <img src="./img/pencil.svg" alt="" width="90px" style="background-color: #FFDAB9;padding: 5px;">
+            <span>40,000+<br>Doubts cleared</span>
+        </div>
+        <div class="achieved">
+            <img src="./img/education.svg" alt="" width="90px" style="background-color: #b19cd9;padding: 5px;">
+            <span>20+<br>State Boards</span>
+        </div>
+        <div class="achieved">
+            <img src="./img/online-class.svg" alt="" width="90px" style="background-color: #ffa700;padding: 5px;">
+            <span>1,000,000+<br>Video Lectures</span>
+        </div>
+        <div class="achieved">
+            <img src="./img/studying.svg" alt="" width="90px" style="background-color: #87ceeb;padding: 5px;">
+            <span>5,000+<br>Books Covered</span>
+        </div>
+    </div>
+    <div class="solve_doubts">
+        <h1>Solve your doubts <span>faster.</span></h1>
+        <div class="solve_doubts_content">
+            <div class="left_side">
+                <div class="content">
+                    <img src="./img/internet.svg" alt=""style="width: 50px;">
+                    <span>
+                        <h2>Accessible everywhere</h2>
+                        <p>Access to quallity education anytime, anywhere</p>
+                    </span>
+                </div>
+                <div class="content">
+                    <img src="./img/browser.svg" alt="" style="width: 50px;">
+                    <span>
+                        <h2>1 million+ videos</h2>
+                        <p>Unlimited access to video solution</p>
+                    </span>
+                </div>
+            </div>
+            <div class="right_side">
+                <img src="./img/undraw_knowledge_g5gf.svg" alt="" width="500px">
+            </div>
+        </div>
+    </div>
+    <div class="how">
+        <h1 style="color: darkblue;">How it Works?</h1>
+        <div class="insideContent">
+            <span>
+                <img src="./img/doubt.svg" alt="" style="border: 2px solid gray; border-radius: 50%; width: 200px; height: 200px;">
+                <p>Have a doubt?</p>
+            </span>
+            <span class="arrow"style="margin-top: 70px;">></span>
+            <span>
+                <img src="./img/doubt.svg" alt="" style="border: 2px solid gray; border-radius: 50%; width: 200px; height: 200px;">
+                <p style="color: blue;">Type your question<br>or<br>upload an image</p>
+            </span>
+            <span class="arrow" style="margin-top: 70px;">></span>
+            <span>
+                <img src="./img/doubt.svg" alt="" style="border: 2px solid gray; border-radius: 50%; width: 200px; height: 200px;">
+                <p>Get your solution!</p>
+            </span>
+        </div>
+        <a href="#" class="ask">Clarify your doubt now !</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js" integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA==" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
